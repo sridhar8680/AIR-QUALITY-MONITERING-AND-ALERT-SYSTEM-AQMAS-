@@ -73,6 +73,7 @@ the label "NAQI" and the min/max since boot in the blue area.
 3. **BMP280 vs BMP180.** The simulator has no BMP280 part, so the circuit diagram uses a BMP180 symbol for reference only. The real prototype uses a BMP280. They are different chips, so buy and use a BMP280.
 4. **Two-colour display.** The OLED is yellow in the top 16 pixel rows and blue below. This is fixed in the hardware, so the layout puts temperature in the yellow band and the gauge in the blue area.
 5. **NAQI is not real.** The value shown is an estimate from the MQ135, not an official NAQI.
+6. Make sure that **MQ135** and **BMP280** are **as far as possible** because **Mq135's heater will distrub the readigs of BMP280**
 
 ## Files
 
